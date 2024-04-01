@@ -1,0 +1,769 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: mograch;
+    src: url(mograch.otf);
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-500px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes dropFromTop {
+    from {
+        transform: translatey(-500px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+nav { 
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center; 
+    animation: dropFromTop 3s ease-in-out 0s 1 normal none;
+ } 
+
+label.logo {
+    /* padding: 0 80px; */
+    margin-top: 1.8vh;
+    margin-left: 3vw;
+}
+
+nav ul { 
+     width: 100%;
+     display: flex; 
+     margin-left: 250px;
+     align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px; 
+    width: auto;
+     /* line-height: 60px;  */
+}
+
+ nav a { 
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    /* padding: 7px 10px;  */
+    border-radius: 3px;
+}
+
+.signup {
+    font-size: 1.4rem;
+    width: 147px; 
+    height: 40px; 
+    top: 30px; 
+    left: 1244px;
+    border-radius: 13px; 
+    border-color: transparent;
+    padding: 10px;
+    gap: 10px; 
+    background-color: #1570EF;
+    color: white;
+    margin-left: 4vw; 
+}
+
+.track {
+    width: 470px;
+    height: 116px;
+    top: 238px;
+    left: 56px;
+    font-family: mograch;
+    font-weight: 400;
+    font-size: 5.0rem;
+    margin-left: 3vw;
+}
+
+.track2 {
+    width: 400px;
+    height: 76px;
+    top: 370px;
+    left: 56px;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    line-height: 28px;
+    font-size: 1.8rem;
+}
+
+#container1 {
+    margin-top: 10vh;
+    /* margin-right: 9vw; */
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 10vh;
+    animation: slideInLeft 2s ease-in-out 0s 1 normal none;
+}
+
+.img1 {
+     margin-left: 5vw; 
+    display: flex;
+    align-items: center;
+}
+
+.img1 img {
+    width: 355px;
+    height: 420px;
+}
+
+.signup2 {
+    width: 147px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: #1570EF;
+    border: 2px solid transparent;
+    color: white;
+    margin-left: 3vw;
+}
+
+.track3 {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.track3 c {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 3vw;
+    height: 20px;
+    margin-right: 1vw;
+}
+
+.img2 {
+    display: grid; 
+    margin-left: 3vw;
+}
+
+.img2 img {
+    width: 325px;
+}
+
+.d {
+    width: 300px;
+    height: 27px;
+    background-position-x: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    line-height: 38px;
+    font-weight: 600;
+    margin-left: 600px;
+    display: flex;
+}
+
+button:hover {
+    letter-spacing: 0.1em;
+    background: var(--clr);
+    width: 160px;
+    box-shadow: 0 0 35px var(--clr);
+    transform: translateY(-5px); 
+}
+
+.logos {
+    margin-top: 5vh;
+    height: 40px;
+    display: flex;
+}
+
+.logos img {
+    width: 125px;
+    height: 30px;
+    margin: 0 70px;
+}
+
+.bar1 {
+    width: 25px;
+    height: 1px;
+    background-color: rgba(253, 133, 58, 1);
+    margin-right: 10px;
+}
+
+.analytics {
+    width: 448px;
+    height: 472px;
+    margin-left: 3vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+e {
+    color: rgba(253, 133, 58, 1);
+    font-weight: 600;
+}
+
+.track4 {
+    width: 448px;
+    height: 80px;
+    top: 53px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.4rem;
+    margin-top: 3vh;
+}
+
+.track5 {
+    width: 448px;
+    height: 104px;
+    font-size: 1.8rem;
+    line-height: 28px;
+}
+.check {
+    width: 152px;
+    height: 40px;
+    top: 30px; 
+    left: 1244px;
+    border-radius: 13px; 
+    border-color: transparent;
+    padding: 10px;
+    gap: 10px; 
+    background-color: #1570EF;
+    margin-right: 4vw;
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+}
+
+.img3 {
+    margin-left: 10vw;
+    margin-top: -7vh;
+    display: flex;
+}
+
+.img3 img {
+    width: 345px;
+    height: 250px;
+}
+
+.phase3 {
+    display: flex;
+    animation: slideInLeft 10s ease-in 0s 1 normal none;
+}
+
+.img4 {
+    margin-left: 3vw;
+    margin-bottom: 20vh;
+    display: flex;
+}
+
+.track6 {
+    width: 620px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+
+.join {
+    margin-left: 20vw;
+    width: 453.15px;
+    height: 69px;
+    margin-top: 15vh;
+}
+
+.track7 {
+    width: 400px;
+    height: 108px;
+    top: 84px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 28px;
+    margin-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    width: 279px;
+    height: 27px;
+    margin-left: 581px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+p {
+    width: 828px;
+    height: 94px;
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 266px;
+}
+
+.img5 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    display: flex;
+}
+
+.img5 img {
+    width: 301px;
+    height: 369px;
+}
+
+.watch {
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 30vh;
+}
+
+.watch img {
+    width: 542px;
+    height: 372px;
+}
+
+.know {
+    margin-left: 7vw;
+}
+
+.learn {
+    width: 580px;
+    height: 90px;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 4vh;
+}
+.track8 {
+    width: 440px;
+    height: 84px;
+    margin-top: 1vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 28px;
+}
+
+f {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-right: 1vw;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.features {
+    margin-top: 20vh;
+    margin-left: 3vw;
+    display: flex;
+    margin-bottom: 20vh;
+}
+.track9 {
+    width: 490px;
+    height: 84px;
+    margin-top: 2vh;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif ;
+    /* line-height: 45px; */
+}
+
+.seam {
+    width: 470px;
+    height: 135px;
+    margin-top: 8vh;
+    border-radius: 20px;
+    background-color: rgba(21, 112, 239, 1);
+    color: white;
+    border: 2px solid transparent;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.track17 {
+    width: 555px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.track16 {
+    font-size: 1.4rem;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.seam2 {
+    width: 470px;
+    background-color: rgba(242, 242, 242, 1);
+    height: 60px;
+    border-radius: 16px;
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+}
+.track15 {
+    width: 245px;
+    color: rgba(17, 17, 17, 0.67);
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+
+.features img {
+    margin-left: 313px;
+    height: 500px;
+    margin-top: 6vh;
+    width: 442px;
+    height: 601px;
+}
+
+footer {
+    display: flex;
+    background: rgba(242, 242, 242, 1);
+    height: 390px;
+    width: auto;
+}
+
+.foot {
+    margin-left: 3vw;
+    margin-top: 7vh;
+}
+
+.track10 {
+    width: 364px;
+    height: 84px;
+    margin-top: 11px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+.comp {
+    margin-top: 10vh;
+    margin-left: 14vw;
+}
+
+.track11 {
+    width: 86px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.track12 {
+    width: 142px;
+    margin-top: 17px;
+}
+
+.track13 {
+    margin-top: 17px;
+}
+
+.help {
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+
+.track14 {
+    width: 156px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.over {
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+
+.track19 {
+    display: flex;
+    align-items: center;
+    margin-right: 4vw;
+}
+
+@media (max-width: 480px) {
+    @font-face {
+        font-family: mograch;
+        src: url(mograch.otf);
+    }
+
+    .logos img {
+        display: flex;
+        margin: 0 50px;
+    }
+
+    .d {
+        margin-left: 451px;
+    }
+
+     nav { 
+        width: auto; 
+        display: flex;
+        align-items: center;   
+     } 
+
+    nav ul { 
+        display: flex; 
+        margin-left: 175px;
+        align-items: center;
+        width: auto;
+   }
+   
+   nav li {
+       display: inline-block;
+       /* margin: 0 5px; */
+       width: max-content; 
+   }
+
+   nav a { 
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+   .track19 {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+   }
+
+   #container1 {
+    width: auto;
+    margin-top: auto;
+   }
+
+   .track {
+    width: 420px;
+    height: 140px;
+    top: 238px;
+    left: 56px;
+    font-family: mograch;
+    font-weight: 400;
+    font-size: 4.0rem;
+    margin-left: 3vw;
+   }
+
+   .track2 {
+    width: 450px;
+    height: 76px;
+    top: 370px;
+    left: 56px;
+    margin-top: auto;
+    margin-left: 3vw;
+    line-height: 28px;
+    font-size: 1.8rem;
+}
+
+   h1 {
+    width: 279px;
+    height: 27px;
+    margin-left: 451px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+    p {
+    width: 728px;
+    height: 94px;
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 157px;
+}   
+
+.analytics {
+    width: 400px;
+    height: 472px;
+    margin-left: 3vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+e {
+    color: rgba(253, 133, 58, 1);
+    font-weight: 600;
+}
+
+.track4 {
+    width: 380px;
+    height: 100px;
+    top: 53px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.4rem;
+    margin-top: 3vh;
+}
+
+.track5 {
+    width: 400px;
+    height: 104px;
+    font-size: 1.8rem;
+    line-height: 28px;
+    margin-top: 50px;
+}
+
+.img1 img {
+    width: 285px;
+    height: 402px;
+}
+
+.img2 {
+    display: grid;
+}
+
+.img2 img {
+    width: 230px;
+}
+
+.img3 {
+    margin-left: 100px;
+}
+
+.img3 img {
+    width: 255px;
+    height: 175px;
+}
+
+.img3 .image {
+    margin-top: 65px;
+}
+
+.img5 {
+    margin-top: 15vh;
+    margin-left: 3vw;
+    display: flex;
+}
+
+.img5 img {
+    width: 281px;
+    height: 269px;
+    padding: 0 10px;
+}
+
+.watch img {
+    width: 442px;
+    height: 272px;
+}
+
+.know {
+    margin-left: 100px;
+}
+
+.features {
+    margin-top: 20vh;
+    margin-left: 3vw;
+    display: flex;
+    margin-bottom: 20vh;
+}
+.track9 {
+    width: 430px;
+    height: 84px;
+    margin-top: 2vh;
+    font-size: 3.0rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif ;
+    /* line-height: 45px; */
+}
+
+.seam {
+    width: 430px;
+    height: 135px;
+    margin-top: 8vh;
+    border-radius: 20px;
+    background-color: rgba(21, 112, 239, 1);
+    color: white;
+    border: 2px solid transparent;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.track17 {
+    width: 555px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.track16 {
+    font-size: 1.4rem;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.seam2 {
+    width: 430px;
+    background-color: rgba(242, 242, 242, 1);
+    height: 60px;
+    border-radius: 16px;
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+}
+.track15 {
+    width: 245px;
+    color: rgba(17, 17, 17, 0.67);
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+
+.features img {
+    margin-left: 190px;
+    margin-top: 6vh;
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(242, 242, 242, 1);
+    height: 390px;
+    width: auto;
+}
+}
